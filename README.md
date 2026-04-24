@@ -2,6 +2,9 @@
 
 A Chrome extension that lets you quickly append notes to your Obsidian daily note from any webpage.
 
+<img width="1440" height="900" alt="スクリーンショット 2026-04-24 13 58 42" src="https://github.com/user-attachments/assets/eb25e1d8-5021-48bd-961a-828c93bbc22d" />
+
+
 ![obsidian-sticky](https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white) ![obsidian-sticky](https://img.shields.io/badge/Obsidian-Daily%20Note-7C3AED?logo=obsidian&logoColor=white)
 
 ## Features
