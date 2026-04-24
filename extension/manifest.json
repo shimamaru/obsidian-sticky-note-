@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Obsidian Sticky",
+  "version": "2.0",
+  "description": "Obsidian のデイリーノートへ素早くメモを追記",
+  "permissions": ["scripting", "storage"],
+  "host_permissions": [
+    "http://127.0.0.1:27184/*",
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["panel.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "Obsidian Sticky"
+  }
+}
